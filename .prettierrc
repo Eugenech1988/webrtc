@@ -1,0 +1,44 @@
+{
+  "printWidth": 100,
+  "singleQuote": true,
+  "semi": true,
+  "tabWidth": 2,
+  "arrowParens": "always",
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "endOfLine": "lf",
+  "jsxSingleQuote": true,
+  "importOrderSortSpecifiers": true,
+  "singleAttributePerLine": true,
+  "plugins": [
+    "@ianvs/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss"
+  ],
+  "importOrder": [
+    ".*styles.css$",
+    "",
+    "dayjs",
+    "^react$",
+    "^next$",
+    "^next/.*$",
+    "<BUILTIN_MODULES>",
+    "<THIRD_PARTY_MODULES>",
+    "^@mantine/(.*)$",
+    "^@mantinex/(.*)$",
+    "^@mantine-tests/(.*)$",
+    "^@docs/(.*)$",
+    "^@/.*$",
+    "^../(?!.*.css$).*$",
+    "^./(?!.*.css$).*$",
+    "\\.css$"
+  ],
+  "overrides": [
+    {
+      "files": "*.mdx",
+      "options": {
+        "printWidth": 70
+      }
+    }
+  ]
+}
