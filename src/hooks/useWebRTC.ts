@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef } from 'react';
-import { ACTIONS } from '../constants/actions';
-import socket from '../socket';
+import { ACTIONS } from '@/constants/actions';
+import socket from '@/socket';
 import useStateWithCallback from './useStateWithCallBack.tsx';
 
 export const LOCAL_VIDEO = 'LOCAL_VIDEO';

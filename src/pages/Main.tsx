@@ -35,11 +35,11 @@ const Main = () => {
   };
 
   return (
-    <div className='flex h-screen flex-col items-center justify-center bg-gray-100'>
+    <div className='flex h-screen max-h-10 flex-col items-center justify-center bg-gray-100'>
       {rooms.length > 0 && (
         <h1 className='mb-4 text-center text-xl font-bold uppercase'>Available Rooms</h1>
       )}
-      <ul className='mb-2'>
+      <ul className='moverflow-scroll mb-2 max-h-5'>
         {rooms.map((roomID) => (
           <li
             key={roomID}
