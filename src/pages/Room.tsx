@@ -1,4 +1,3 @@
-// Room.tsx
 import { useParams } from 'react-router-dom';
 import useWebRTC, { LOCAL_VIDEO } from '../hooks/useWebRTC';
 

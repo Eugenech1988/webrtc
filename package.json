@@ -13,6 +13,7 @@
   "dependencies": {
     "@fontsource/montserrat": "^5.2.6",
     "@tailwindcss/vite": "^4.1.11",
+    "clsx": "^2.1.1",
     "express": "^5.1.0",
     "freeice": "^2.2.2",
     "react": "^19.0.0",
@@ -20,6 +21,7 @@
     "react-router-dom": "^7.6.3",
     "socket.io": "^4.8.1",
     "socket.io-client": "^4.8.1",
+    "tailwind-merge": "^3.3.1",
     "tailwindcss": "^4.1.11",
     "uuid": "^11.1.0"
   },
